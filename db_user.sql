@@ -1,0 +1,5 @@
+CREATE USER 'dhwani'@'%' IDENTIFIED BY 'dhwani123';
+
+GRANT ALL PRIVILEGES ON *.* TO 'dhwani'@'%';
+
+FLUSH PRIVILEGES;
